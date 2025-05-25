@@ -1,0 +1,224 @@
+* {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    min-height: 100vh;
+     background-image: linear-gradient(#FFFFFF, #EBDCFF); 
+}
+
+#op {
+    /* margin-top: 100px;
+        margin-bottom: 120px; 
+        margin-left: auto;
+        margin-right: auto; */
+    background-color: white;
+    width: 87.5%;
+    border-radius: 40px;
+    border: 2px solid #872BFF10;
+    padding: 20px 30px;
+    background-image: url(../images/hero-bg.png);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*        t     r     b   l 
+        margin: 100px 10px 25px 10px;*/
+    margin: 100px auto 120px auto;
+}
+img{
+    width: 100%;
+}
+
+.btn {
+    background-color: #872bff;
+    border-radius: 30px;
+    padding: 16px 32px;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.btn-w {
+    border: 2px solid #872BFF;
+    border-radius: 30px;
+    padding: 16px 32px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.baner-content * {
+    margin-bottom: 20px;
+}
+
+.baner-content{
+    width: 50%;
+}
+
+.baner-content h1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.baner-content p {
+    font-size: 18px;
+    font-weight: medium;
+    color: #A8A8A8;
+
+}
+
+.baner-content h1 span {
+    color: #F411CF;
+}
+
+.baner-imge {
+    width: 50%;
+}
+
+.heading-contant {
+    text-align: center;
+}
+
+.heading-contant h4 {
+    color: #F411CF;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.heading-contant h2 {
+    font-weight: bold;
+    font-size: 44px;
+    margin-bottom: 60px;
+
+}
+
+
+#service,
+#story,
+#country,
+#turist-container {
+    width: 87.5%;
+    margin: 0px auto 120px auto;
+}
+
+#service-card-continer {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.service-card {
+    max-width: 300px;
+    background-color: white;
+    border-radius: 30px;
+    padding:100px 60px;
+    text-align: center;
+}
+
+.service-card img {
+    width: 80px;
+    margin-bottom: 30px;
+
+}
+
+.service-card h2 {
+    font-size: 28px;
+    font-weight: semi-bold;
+    margin-bottom: 20px;
+}
+
+.service-card p {
+    font-size: 18px;
+    color: #A8A8A8;
+    font-weight: medium;
+    margin-bottom: 30px;
+}
+
+.story-card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 24px;
+    display: flex;
+    gap: 20px;
+
+}
+.story-contant{
+    width: 60%;
+}
+.story-img{
+    width: 40%;
+}
+.story-contant img {
+    width: 100px;
+}
+
+.story-contant h2,
+.story-contant p,
+.story-contant img {
+    margin-bottom: 30px;
+}
+
+#country-card-continer {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+#country-card-continer h2 {
+    background-color: white;
+    padding: 40px;
+    border-radius: 30px;
+}
+
+#turist {
+    background-color: white;
+    padding: 40px;
+    border-radius: 24px;
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
+.ferdous-card {
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+
+}
+
+#ferdous {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 60%;
+    text-align: center;
+
+}
+
+.zahir {
+    margin-top: 60px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    text-align: start;
+}
+
+.name-cointainer {
+    padding: 52px;
+    justify-items: center;
+}
+#raihan{
+
+     background-color: white;
+    padding: 40px;
+    border-radius: 24px;
+    gap: 20px;
+}
+

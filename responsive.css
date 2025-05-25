@@ -1,0 +1,78 @@
+/* laptop divice */
+@media screen and (max-width:1200px) {
+    .baner-content h1 {
+    font-size: 48px;
+}
+.service-card{
+    padding: 80px 20px;
+}
+.story-img img{
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+}
+/* tablet divice */
+@media screen and (max-width:1024px) {
+   #op {
+  flex-direction: column-reverse;
+}
+.baner-content{
+    width: 100%;
+}
+.baner-imge{
+    width: 100%;
+}
+#service-card-continer{
+    flex-direction: column;
+}
+.service-card {
+    max-width: 100%;
+}
+.story-card{
+    flex-direction: column;
+}
+.story-contant{
+    width: 100%;
+}
+.story-img{
+    width: 100%;
+}
+}
+/* mobile divice */
+@media screen and (max-width:640px) {
+   .baner-content{
+    text-align: center;
+   } 
+    .baner-content h1 {
+    font-size: 36px;
+}
+.btn {
+    padding: 12px 28px;
+}
+.btn-w {
+    padding: 12px 20px ;
+}
+.heading-contant h2{
+    font-size: 32px;
+}.story-card{
+    flex-direction: column;
+}
+.story-contant{
+    width: 100%;
+}
+.story-img{
+    width: 100%;
+}
+#country-card-continer {
+    flex-direction: column;
+}
+#country-card-continer h2{
+    text-align: center;
+}
+ .name-cointainer h1{ 
+    text-align: center;
+
+}
+
+}
