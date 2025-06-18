@@ -41,11 +41,11 @@ img{
     margin-right: 20px;
     
 }
-.btn:hover {
+.btn:hover{
     background: linear-gradient(90deg, #872BFF, #F411CF);
     color: black;
     border: 2px solid #8a74a7;
-    transition: 1s;
+    transition: 1.5s;
 }
 
 .btn-w {
